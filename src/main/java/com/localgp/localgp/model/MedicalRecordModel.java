@@ -1,4 +1,4 @@
-package com.localgp.localgp.model.dtoModel;
+package com.localgp.localgp.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

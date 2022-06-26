@@ -4,9 +4,9 @@ import com.localgp.localgp.entity.Appointment;
 import com.localgp.localgp.entity.AppointmentStatus;
 import com.localgp.localgp.entity.Doctor;
 import com.localgp.localgp.entity.DoctorSchedule;
-import com.localgp.localgp.model.dtoModel.AppointmentRegistrationModel;
-import com.localgp.localgp.model.viewModel.DaySchedule;
-import com.localgp.localgp.model.viewModel.Period;
+import com.localgp.localgp.model.AppointmentRegistrationModel;
+import com.localgp.localgp.model.DaySchedule;
+import com.localgp.localgp.model.Period;
 
 import com.localgp.localgp.repository.AppointmentRepository;
 import com.localgp.localgp.repository.DoctorScheduleRepository;

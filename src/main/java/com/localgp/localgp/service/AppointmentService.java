@@ -1,8 +1,8 @@
 package com.localgp.localgp.service;
 
 import com.localgp.localgp.entity.Appointment;
-import com.localgp.localgp.model.dtoModel.AppointmentRegistrationModel;
-import com.localgp.localgp.model.viewModel.Period;
+import com.localgp.localgp.model.AppointmentRegistrationModel;
+import com.localgp.localgp.model.Period;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;

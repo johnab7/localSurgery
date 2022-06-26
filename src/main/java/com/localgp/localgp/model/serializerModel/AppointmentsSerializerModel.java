@@ -1,4 +1,4 @@
-//package com.localgp.localgp.model.viewModel;
+//package com.localgp.localgp.model.serializerModel;
 //
 //import com.fasterxml.jackson.core.JsonGenerator;
 //import com.fasterxml.jackson.databind.SerializerProvider;

@@ -1,7 +1,7 @@
 package com.localgp.localgp.service.serviceImplementation;
 //
 import com.localgp.localgp.entity.UserAuth;
-import com.localgp.localgp.model.dtoModel.UpdatePasswordModel;
+import com.localgp.localgp.model.UpdatePasswordModel;
 import com.localgp.localgp.repository.UserAuthRepository;
 import com.localgp.localgp.security.UserPrincipal;
 import com.localgp.localgp.service.UserPrincipalDetails;
@@ -11,13 +11,9 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 
 import org.springframework.security.crypto.password.PasswordEncoder;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 //
-import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
-import java.util.Optional;
 
 //
 //

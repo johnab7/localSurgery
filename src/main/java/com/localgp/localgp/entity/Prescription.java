@@ -1,6 +1,6 @@
 package com.localgp.localgp.entity;
 
-import com.localgp.localgp.model.dtoModel.PrescriptionModel;
+import com.localgp.localgp.model.PrescriptionModel;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

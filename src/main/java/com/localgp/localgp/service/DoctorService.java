@@ -2,7 +2,7 @@ package com.localgp.localgp.service;
 
 
 import com.localgp.localgp.entity.Doctor;
-import com.localgp.localgp.model.dtoModel.DoctorDetailsModel;
+import com.localgp.localgp.model.DoctorDetailsModel;
 
 
 import java.util.List;

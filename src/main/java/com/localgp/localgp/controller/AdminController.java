@@ -1,7 +1,6 @@
 package com.localgp.localgp.controller;
 
-import com.localgp.localgp.model.dtoModel.DoctorDetailsModel;
-import com.localgp.localgp.model.dtoModel.PatientRegistrationModel;
+import com.localgp.localgp.model.DoctorDetailsModel;
 import com.localgp.localgp.service.DoctorService;
 import com.localgp.localgp.service.PatientService;
 import com.localgp.localgp.service.PharmacyService;
@@ -10,7 +9,6 @@ import org.springframework.boot.configurationprocessor.json.JSONObject;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 

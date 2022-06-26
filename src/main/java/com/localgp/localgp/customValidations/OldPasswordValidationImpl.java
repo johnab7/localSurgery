@@ -1,7 +1,7 @@
 package com.localgp.localgp.customValidations;
 
 import com.localgp.localgp.entity.UserAuth;
-import com.localgp.localgp.model.dtoModel.UpdatePasswordModel;
+import com.localgp.localgp.model.UpdatePasswordModel;
 import com.localgp.localgp.service.UserPrincipalDetails;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;

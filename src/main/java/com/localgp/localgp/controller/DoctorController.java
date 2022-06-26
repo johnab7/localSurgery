@@ -2,7 +2,7 @@ package com.localgp.localgp.controller;
 
 import com.localgp.localgp.entity.Doctor;
 import com.localgp.localgp.entity.DoctorSchedule;
-import com.localgp.localgp.model.dtoModel.DoctorDetailsModel;
+import com.localgp.localgp.model.DoctorDetailsModel;
 import com.localgp.localgp.service.DoctorScheduleService;
 import com.localgp.localgp.service.DoctorService;
 import org.springframework.beans.factory.annotation.Autowired;

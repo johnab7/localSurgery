@@ -1,4 +1,4 @@
-package com.localgp.localgp.model.dtoModel;
+package com.localgp.localgp.model;
 
 //import javax.validation.constraints.Size;
 

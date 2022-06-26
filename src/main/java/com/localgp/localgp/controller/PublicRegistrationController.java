@@ -1,11 +1,9 @@
 package com.localgp.localgp.controller;
 
 
-import com.localgp.localgp.model.dtoModel.PatientRegistrationModel;
-import com.localgp.localgp.model.dtoModel.UpdatePasswordModel;
+import com.localgp.localgp.model.PatientRegistrationModel;
 import com.localgp.localgp.repository.UserAuthRepository;
 import com.localgp.localgp.service.PatientService;
-import com.localgp.localgp.service.serviceImplementation.UserPrincipalDetailsService;
 import org.springframework.boot.configurationprocessor.json.JSONException;
 import org.springframework.boot.configurationprocessor.json.JSONObject;
 import org.springframework.http.HttpStatus;

@@ -1,8 +1,6 @@
 package com.localgp.localgp.entity;
 
-import com.localgp.localgp.model.dtoModel.DoctorDetailsModel;
-import com.localgp.localgp.model.dtoModel.PatientRegistrationModel;
-import com.localgp.localgp.model.dtoModel.UserRegistrationModel;
+import com.localgp.localgp.model.DoctorDetailsModel;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -10,8 +8,6 @@ import lombok.Setter;
 import javax.persistence.*;
 import java.io.Serializable;
 import java.time.LocalDate;
-import java.util.Collection;
-import java.util.Date;
 import java.util.List;
 import java.util.Set;
 

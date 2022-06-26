@@ -1,7 +1,7 @@
 package com.localgp.localgp.service;
 
 import com.localgp.localgp.entity.Prescription;
-import com.localgp.localgp.model.dtoModel.PrescriptionModel;
+import com.localgp.localgp.model.PrescriptionModel;
 
 import java.util.List;
 

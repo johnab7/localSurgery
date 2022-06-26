@@ -1,19 +1,16 @@
 package com.localgp.localgp.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.localgp.localgp.model.viewModel.DaySchedule;
-import com.localgp.localgp.model.viewModel.Period;
+import com.localgp.localgp.model.DaySchedule;
+import com.localgp.localgp.model.Period;
 import com.vladmihalcea.hibernate.type.json.JsonStringType;
-import org.apache.tomcat.jni.Local;
 import org.hibernate.annotations.Type;
 import org.hibernate.annotations.TypeDef;
 import org.hibernate.annotations.TypeDefs;
 
 
 import javax.persistence.*;
-import java.time.LocalDate;
 import java.time.LocalTime;
-import java.util.List;
 
 @TypeDefs(@TypeDef(name = "json", typeClass = JsonStringType.class))
 @Entity

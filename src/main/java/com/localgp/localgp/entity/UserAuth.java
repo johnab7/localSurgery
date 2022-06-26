@@ -2,9 +2,7 @@ package com.localgp.localgp.entity;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.localgp.localgp.customValidations.UsernameDistinct;
-import com.localgp.localgp.model.dtoModel.DoctorDetailsModel;
-import com.localgp.localgp.model.dtoModel.PatientRegistrationModel;
-import com.localgp.localgp.model.dtoModel.UserRegistrationModel;
+import com.localgp.localgp.model.UserRegistrationModel;
 import lombok.Getter;
 import lombok.Setter;
 

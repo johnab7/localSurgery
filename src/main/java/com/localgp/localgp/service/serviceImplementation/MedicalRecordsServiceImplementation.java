@@ -1,8 +1,6 @@
 package com.localgp.localgp.service.serviceImplementation;
 
 import com.localgp.localgp.entity.MedicalRecord;
-import com.localgp.localgp.model.dtoModel.MedicalRecordModel;
-import com.localgp.localgp.model.dtoModel.PrescriptionModel;
 import com.localgp.localgp.repository.MedicalRecordsRepository;
 import com.localgp.localgp.service.MedicalRecordsService;
 import lombok.AllArgsConstructor;

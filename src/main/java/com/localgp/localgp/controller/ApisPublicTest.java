@@ -1,8 +1,7 @@
 package com.localgp.localgp.controller;
 
 import com.localgp.localgp.entity.*;
-import com.localgp.localgp.model.dtoModel.*;
-import com.localgp.localgp.model.viewModel.Period;
+import com.localgp.localgp.model.*;
 import com.localgp.localgp.repository.UserAuthRepository;
 import com.localgp.localgp.service.*;
 import com.localgp.localgp.service.serviceImplementation.UserPrincipalDetailsService;

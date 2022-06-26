@@ -1,12 +1,10 @@
-package com.localgp.localgp.model.viewModel;
+package com.localgp.localgp.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
 import java.time.LocalTime;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Objects;
 
 @Getter

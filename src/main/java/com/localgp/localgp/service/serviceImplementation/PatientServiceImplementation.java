@@ -1,12 +1,11 @@
 package com.localgp.localgp.service.serviceImplementation;
 
 import com.localgp.localgp.entity.Patient;
-import com.localgp.localgp.model.dtoModel.PatientRegistrationModel;
+import com.localgp.localgp.model.PatientRegistrationModel;
 import com.localgp.localgp.repository.PatientRepository;
 import com.localgp.localgp.service.PatientService;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
 

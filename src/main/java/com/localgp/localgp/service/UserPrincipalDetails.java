@@ -1,10 +1,8 @@
 package com.localgp.localgp.service;
 
 
-import com.localgp.localgp.entity.MedicalRecord;
 import com.localgp.localgp.entity.UserAuth;
-import com.localgp.localgp.model.dtoModel.UpdatePasswordModel;
-import com.localgp.localgp.model.dtoModel.UserRegistrationModel;
+import com.localgp.localgp.model.UpdatePasswordModel;
 import org.springframework.security.core.userdetails.UserDetailsService;
 
 

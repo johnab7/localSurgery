@@ -2,7 +2,7 @@ package com.localgp.localgp.service.serviceImplementation;
 
 import com.localgp.localgp.entity.MedicalRecord;
 import com.localgp.localgp.entity.Prescription;
-import com.localgp.localgp.model.dtoModel.PrescriptionModel;
+import com.localgp.localgp.model.PrescriptionModel;
 import com.localgp.localgp.repository.MedicalRecordsRepository;
 import com.localgp.localgp.repository.PrescriptionRepository;
 import com.localgp.localgp.service.PrescriptionService;

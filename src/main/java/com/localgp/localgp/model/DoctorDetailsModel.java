@@ -1,4 +1,4 @@
-package com.localgp.localgp.model.dtoModel;
+package com.localgp.localgp.model;
 
 import com.localgp.localgp.entity.*;
 import lombok.AllArgsConstructor;
@@ -11,7 +11,7 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class DoctorDetailsModel extends UserRegistrationModel{
+public class DoctorDetailsModel extends UserRegistrationModel {
 
     private final String hospitalName="UOL";
 

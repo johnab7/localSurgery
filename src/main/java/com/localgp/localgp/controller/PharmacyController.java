@@ -2,8 +2,7 @@ package com.localgp.localgp.controller;
 
 import com.localgp.localgp.entity.Pharmacy;
 import com.localgp.localgp.entity.Prescription;
-import com.localgp.localgp.model.dtoModel.AppointmentRegistrationModel;
-import com.localgp.localgp.model.dtoModel.PrescriptionModel;
+import com.localgp.localgp.model.PrescriptionModel;
 import com.localgp.localgp.service.PharmacyService;
 import com.localgp.localgp.service.PrescriptionService;
 import org.springframework.beans.factory.annotation.Autowired;

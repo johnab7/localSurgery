@@ -1,4 +1,4 @@
-package com.localgp.localgp.model.viewModel;
+package com.localgp.localgp.model;
 
 public class LoginViewModel {
     private String username;

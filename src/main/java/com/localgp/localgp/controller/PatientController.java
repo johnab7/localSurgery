@@ -1,7 +1,7 @@
 package com.localgp.localgp.controller;
 
 import com.localgp.localgp.entity.Patient;
-import com.localgp.localgp.model.dtoModel.PatientRegistrationModel;
+import com.localgp.localgp.model.PatientRegistrationModel;
 import com.localgp.localgp.service.PatientService;
 import org.springframework.boot.configurationprocessor.json.JSONException;
 import org.springframework.boot.configurationprocessor.json.JSONObject;

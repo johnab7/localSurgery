@@ -2,17 +2,14 @@ package com.localgp.localgp.service.serviceImplementation;
 
 import com.localgp.localgp.entity.Doctor;
 import com.localgp.localgp.entity.DoctorSchedule;
-import com.localgp.localgp.model.dtoModel.DoctorDetailsModel;
+import com.localgp.localgp.model.DoctorDetailsModel;
 import com.localgp.localgp.repository.DoctorRepository;
-import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import com.localgp.localgp.service.DoctorService;
 import org.springframework.stereotype.Component;
 
-import javax.print.Doc;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 
 @Component
 public class DoctorServiceImplementation implements DoctorService {

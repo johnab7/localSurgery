@@ -3,8 +3,8 @@ package com.localgp.localgp.controller;
 
 import com.localgp.localgp.entity.Appointment;
 import com.localgp.localgp.entity.DoctorSchedule;
-import com.localgp.localgp.model.dtoModel.AppointmentRegistrationModel;
-import com.localgp.localgp.model.viewModel.Period;
+import com.localgp.localgp.model.AppointmentRegistrationModel;
+import com.localgp.localgp.model.Period;
 import com.localgp.localgp.service.AppointmentService;
 import com.localgp.localgp.service.DoctorScheduleService;
 import org.springframework.beans.factory.annotation.Autowired;

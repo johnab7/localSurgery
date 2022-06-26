@@ -2,9 +2,7 @@ package com.localgp.localgp.service;
 
 
 import com.localgp.localgp.entity.Patient;
-import com.localgp.localgp.model.dtoModel.PatientRegistrationModel;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.Pageable;
+import com.localgp.localgp.model.PatientRegistrationModel;
 
 import java.util.List;
 

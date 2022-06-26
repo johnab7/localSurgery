@@ -1,4 +1,4 @@
-package com.localgp.localgp.model.dtoModel;
+package com.localgp.localgp.model;
 
 import com.localgp.localgp.entity.Patient;
 import lombok.AllArgsConstructor;
@@ -10,7 +10,7 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class PatientRegistrationModel extends UserRegistrationModel{
+public class PatientRegistrationModel extends UserRegistrationModel {
 
 
     private int nhsNumber;
