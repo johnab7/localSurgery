@@ -22,7 +22,7 @@ public class DoctorController {
     public DoctorService doctorService;
 
     @Autowired
-    public DoctorScheduleService scheduleService;
+    public DoctorScheduleService doctorScheduleService;
 
     @GetMapping(path = "/getDoctor")
     public Doctor getById(@RequestParam long id){
@@ -61,18 +61,18 @@ public class DoctorController {
 
     @GetMapping(path = "/getDoctorSchedule")
     public DoctorSchedule getDoctorSchedule(@RequestParam long id){
-        return scheduleService.getDoctorScheduleByDoctorId(id);
+        return doctorScheduleService.getDoctorScheduleByDoctorId(id);
     }
 
     @GetMapping(path = "/{username}/getDoctorSchedule")
     public DoctorSchedule getDoctorSchedule(@PathVariable String username){
         DoctorDetailsModel doctorDetailsModel =new DoctorDetailsModel(doctorService.getByUsername(username));
-        return scheduleService.getDoctorScheduleByDoctorId(doctorDetailsModel.getId());
+        return doctorScheduleService.getDoctorScheduleByDoctorId(doctorDetailsModel.getId());
     }
     // Schedule
     @PostMapping(path = "/updateDoctorSchedule" , consumes = MediaType.APPLICATION_JSON_VALUE)
     public void updateDoctorSchedule(@RequestBody DoctorSchedule doctorSchedule){
-        scheduleService.updateDoctorSchedule(doctorSchedule);
+        doctorScheduleService.updateDoctorSchedule(doctorSchedule);
     }
 
 }

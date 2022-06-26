@@ -48,21 +48,23 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 
                 .antMatchers(HttpMethod.POST, "/login").permitAll()
                 .antMatchers(HttpMethod.POST, "/register").permitAll()
-                //
-                .antMatchers(HttpMethod.POST, "/doctor/availability").permitAll()
-                .antMatchers(HttpMethod.GET, "/appointment/**").permitAll()
-                .antMatchers(HttpMethod.GET, "/notifications").permitAll()
-                .antMatchers("/admin/**").permitAll()
-                .antMatchers("/doctor/**").permitAll()
-                .antMatchers("/patient/**").permitAll()
-                .antMatchers("/pharmacy/**").permitAll()
+
+
+                // test
+//                .antMatchers(HttpMethod.POST, "/doctor/availability").permitAll()
+//                .antMatchers(HttpMethod.GET, "/appointment/**").permitAll()
+//                .antMatchers(HttpMethod.GET, "/notifications").permitAll()
+//                .antMatchers("/admin/**").permitAll()
+//                .antMatchers("/doctor/**").permitAll()
+//                .antMatchers("/patient/**").permitAll()
+//                .antMatchers("/pharmacy/**").permitAll()
 //                .antMatchers(HttpMethod.GET), "api/public/").permitAll()
                 //PermitALL to Test built APIs
 
-//                .antMatchers("/admin/**").hasRole("ADMIN")
-//                .antMatchers("/doctor/**").hasRole("DOCTOR")
-//                .antMatchers("/patient/**").hasRole("PATIENT")
-//                .antMatchers("/pharmacy/**").hasRole("PHARMACY")
+                .antMatchers("/admin/**").hasRole("ADMIN")
+                .antMatchers("/doctor/**").hasRole("DOCTOR")
+                .antMatchers("/patient/**").hasRole("PATIENT")
+                .antMatchers("/pharmacy/**").hasRole("PHARMACY")
                 .anyRequest().permitAll();
         http.cors();
 
